@@ -8,10 +8,9 @@ cache:
   yarn: true
   directories:
     - node_modules
-    - $HOME/.cache/yarn
     - .next/cache
 before_install:
-- npm update
+- yarn upgrade
 - pip install --user codecov
 
 install:
