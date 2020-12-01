@@ -13,7 +13,7 @@ before_install:
 install:
 - npm install
 script:
-- npm coverage
+- npm run coverage
 
 after_success:
   - codecov --file coverage/lcov.info --disable search
