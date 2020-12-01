@@ -1,1 +1,2 @@
 [![codecov](https://codecov.io/gh/floriansr/travis-config/branch/master/graph/badge.svg?token=NYYR0IJCH9)](https://codecov.io/gh/floriansr/travis-config)
+[![Build Status](https://travis-ci.com/floriansr/travis-config.svg?branch=master)](https://travis-ci.com/floriansr/travis-config)
