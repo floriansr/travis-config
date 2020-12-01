@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
+    "coverage": "istanbul cover ./test.js",
     "test": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.js"
   },
   "dependencies": {
@@ -15,6 +15,7 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "coveralls": "^3.1.0"
+    "coveralls": "^3.1.0",
+    "istanbul": "^0.4.5"
   }
 }
