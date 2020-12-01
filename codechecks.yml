@@ -1,0 +1,14 @@
+checks:
+  - name: build-size-watcher
+    options:
+      gzip: false
+      files:
+        - path: '.next/static/**/*.js'
+  - name: typecov
+    options:
+      atLeast: 97
+      ignoreCatch: true
+      ignoreFiles:
+        - './next'
+        - '*.d.ts'
+      strict: true
